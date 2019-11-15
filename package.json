@@ -2,7 +2,7 @@
   "name": "nodeauth-challenge",
   "version": "1.0.0",
   "description": "Authentication Sprint Challenge",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "cross-env DB_ENV=testing jest --watchAll",
     "server": "nodemon index.js"
@@ -29,7 +29,7 @@
     "express": "^4.17.1",
     "helmet": "^3.21.2",
     "jsonwebtoken": "^8.5.1",
-    "knex": "^0.19.2",
+    "knex": "^0.20.2",
     "sqlite3": "^4.1.0"
   },
   "devDependencies": {
